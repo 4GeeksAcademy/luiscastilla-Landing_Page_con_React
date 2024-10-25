@@ -1,4 +1,3 @@
-
 .navbar {
     margin-bottom: 30px;
 }
@@ -13,9 +12,11 @@
 .jumbotron .btn {
     margin-top: 20px;
 }
-  
-.card-deck .card {
-    margin-bottom: 30px;
+
+.card {
+    width: 100%; 
+    height: 27rem;
+    margin: 0 auto;
 }
   
 .footer {
@@ -23,11 +24,32 @@
     color: white;
     padding: 10px 0;
     text-align: center;
-    position: fixed;
     bottom: 0;
     width: 100%;
 }
 
 .card-body {
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.tarjeticas{
+    margin-bottom: 3rem;
+}
+
+.card-img-top {
+    width: 100%;
+    height: auto;
+    min-height: 13rem; 
+    object-fit: cover;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.tamaño-img {
+    width: 100%;
+    height: auto;
+    overflow: hidden; 
 }
